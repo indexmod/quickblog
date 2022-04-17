@@ -1,7 +1,8 @@
 ---
-title: My First Post
-date: 2020-06-28
-tags: easy, quickblog
+title: "My First Post"
+date: "2020-06-28"
+tags: easy, post
+permalink: post
 ---
 
 This is my first post.

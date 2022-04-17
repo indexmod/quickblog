@@ -2,13 +2,14 @@
 title: "QuickBlog"
 date: "2020-06-28"
 tags: tutorial, quickblog
+permalink: quickblog
 ---
 
 [QuickBlog](https://github.com/anorwell/quickblog) is a dead simple and easy to use blogging tool. Anyone with a [github](https://github.com) account can use it to start blogging within minutes. Once a post has been written (in markdown or HTML format), it will be automatically published to a github pages website. Unlike blogging platforms like medium or tumblr, you own the content you create [[1]](#footnotes).
 
 ### Why not use X?
 
-There are a lot of static site tools, most of which have more features and an established userbase. [Jenkyll](https://jekyllrb.com/) is probably the most popular; [Hugo](https://gohugo.io/) is another. These are very flexible tools that can create all kinds of websites, not just blogs. They have better support for theming and customization. 
+There are a lot of static site tools, most of which have more features and an established userbase. [Jenkyll](https://jekyllrb.com/) is probably the most popular; [Hugo](https://gohugo.io/) is another. These are very flexible tools that can create all kinds of websites, not just blogs. They have better support for theming and customization.
 
 But these are also, in my experience, more complicated to get started with. Here's github's [guide to creating a Jenkyll-based site](https://help.github.com/en/github/working-with-github-pages/creating-a-github-pages-site-with-jekyll). It requires use of the command line. It's not obvious how to make to make a blog.
 
@@ -16,7 +17,7 @@ The goal of Quickblog is to make setup and blog hosting as easy as possible. Any
 
 If flexibility or customizability are important to you, you should probably consider other tools.
 
-Quickblog differs from many other static site generators in that it generates a single page application. 
+Quickblog differs from many other static site generators in that it generates a single page application.
 
 ## Setting up
 
@@ -57,7 +58,7 @@ The appearance can be customized via [CSS](https://en.wikipedia.org/wiki/Cascadi
 
 #### Changing the URL
 
-By renaming your forked copy of the repository from `quickblog` to `USERNAME.github.io`, the site will be published at `USERNAME.github.io` instead of `USERNAME.github.io/quickblog`. 
+By renaming your forked copy of the repository from `quickblog` to `USERNAME.github.io`, the site will be published at `USERNAME.github.io` instead of `USERNAME.github.io/quickblog`.
 
 It's easy to create your own domain name and point it to github pages. See, for example, [this guide](https://help.github.com/en/github/working-with-github-pages/managing-a-custom-domain-for-your-github-pages-site#configuring-a-subdomain).
 
